@@ -1,0 +1,27 @@
+
+
+// theme fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300..900&display=swap');
+
+/*
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+*/
+
+$rubik: "Rubik", sans-serif;
+$poppins: "Poppins", sans-serif;
