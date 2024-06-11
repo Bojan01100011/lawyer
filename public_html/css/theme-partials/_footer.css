@@ -1,0 +1,13 @@
+.footer {
+  padding: 25px 0 25px;
+}
+.footer .social a {
+  color: #312e3f;
+  font-size: 2rem;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+}
+.footer .social a:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}

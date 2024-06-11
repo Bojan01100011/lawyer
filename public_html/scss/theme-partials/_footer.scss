@@ -1,0 +1,32 @@
+$social-text:#312e3f;
+
+
+footer{
+    padding: 15px 0;
+
+
+    .social{
+
+       a{
+        color: $social-text;
+        font-size: 2.5rem;
+        transition: 1s linear;
+        margin: 0 5px;
+
+        &:hover{
+            transform: rotate(360deg);
+        }
+       }
+
+    }
+
+    p{
+        color: #586c88;
+        font-size: 1.2rem;
+        font-weight: $font-weight-medium;
+        line-height: 4.1rem;
+        a{
+            color:#586c88;
+        }
+    }
+}

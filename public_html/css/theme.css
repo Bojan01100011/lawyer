@@ -10341,3 +10341,27 @@ header .navbar-nav a {
   margin-right: 12px;
   font-size: 2rem;
 }
+
+footer {
+  padding: 15px 0;
+}
+footer .social a {
+  color: #312e3f;
+  font-size: 2.5rem;
+  -webkit-transition: 1s linear;
+  transition: 1s linear;
+  margin: 0 5px;
+}
+footer .social a:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+footer p {
+  color: #586c88;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 4.1rem;
+}
+footer p a {
+  color: #586c88;
+}
