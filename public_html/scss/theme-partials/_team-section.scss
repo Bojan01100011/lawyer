@@ -32,11 +32,51 @@
 
 }
 
-
 @media(min-width:576px){
     .team-section{
         .teme-member-info{
             margin-bottom: 10rem;
         }
+    }
+}
+
+
+
+//team page 
+
+
+$linkin-color: $primary;
+
+
+.pteam-section{
+    padding: 64px 0;
+    
+
+    .pteam-item{
+        padding-bottom: 52px;
+
+
+        .pteam-member{
+            position: relative;
+
+            .fa-linkedin-in{
+                font-size: 25px;
+                position: absolute;
+                bottom: 10px;
+                right: 10px;
+                color: $linkin-color;
+
+                padding: 5%;
+                background-color: $white;
+                border-radius: 30%;
+                   
+            }
+
+            a{
+                font-size: 1.8rem;
+                line-height: 2.7rem;
+            }
+        }
+
     }
 }

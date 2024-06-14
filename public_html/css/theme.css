@@ -10358,6 +10358,30 @@ header .navbar-nav a {
     margin-bottom: 10rem;
   }
 }
+.pteam-section {
+  padding: 64px 0;
+}
+.pteam-section .pteam-item {
+  padding-bottom: 52px;
+}
+.pteam-section .pteam-item .pteam-member {
+  position: relative;
+}
+.pteam-section .pteam-item .pteam-member .fa-linkedin-in {
+  font-size: 25px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: #1A77CD;
+  padding: 5%;
+  background-color: #fff;
+  border-radius: 30%;
+}
+.pteam-section .pteam-item .pteam-member a {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
 .info-section {
   padding: 75px 0 69px;
   background-color: #11284B;
